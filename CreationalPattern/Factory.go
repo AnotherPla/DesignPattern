@@ -1,13 +1,11 @@
 package creationalpattern
 
 // -----------------抽象层---------------
-
 type Factory interface {
 	createFruit() Fruit
 }
 
 //-------------------实现层--------------
-
 type AppleFactory struct{}
 
 func (appleFac *AppleFactory) createFruit() Fruit {

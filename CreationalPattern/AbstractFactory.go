@@ -45,6 +45,7 @@ func (cp *ChinaPear) ShowPear() {
 type ChinaFactory struct{}
 
 func (cf *ChinaFactory) CreateApple() AbstractApple {
+	// var apple := new(ChinaApple)
 	var apple AbstractApple
 
 	apple = new(ChinaApple)

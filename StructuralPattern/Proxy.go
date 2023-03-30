@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// 货物实体
 type Goods struct {
 	kind   string
 	isTrue bool
